@@ -2,8 +2,11 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <klevu>
-            <system_a>http://localhost:8084</system_a>
-            <system_b>http://localhost:8085</system_b>
+<!--            Uncomment for functional testing -->
+<!--            <system_a>http://localhost:8084</system_a>-->
+<!--            <system_b>http://localhost:8085</system_b>-->
+            <system_a>https://some-remote-system.com/v1/incoming</system_a>
+            <system_b>https://another-remote-system.com/v3/changed-ids</system_b>
         </klevu>
     </default>
 </config>
