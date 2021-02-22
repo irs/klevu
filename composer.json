@@ -1,7 +1,7 @@
 {
     "name": "irs/klevu",
     "type": "magento2-module",
-    "license": "propietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Vadim Kusakin",
