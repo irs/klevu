@@ -1,0 +1,15 @@
+{
+    "name": "irs/klevu",
+    "type": "magento2-module",
+    "license": "propietary",
+    "authors": [
+        {
+            "name": "Vadim Kusakin",
+            "email": "vadim.irbis@guidance.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "ext-curl": "*"
+    }
+}

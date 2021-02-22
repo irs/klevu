@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/topology.xsd">
+    <exchange name="klevu.product" type="topic" connection="db">
+        <binding id="klevu.product.update" topic="klevu.product.post" destinationType="queue" destination="klevu_product_update"/>
+    </exchange>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <klevu>
+            <system_a>http://localhost:8084</system_a>
+            <system_b>http://localhost:8085</system_b>
+        </klevu>
+    </default>
+</config>
